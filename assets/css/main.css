@@ -2,10 +2,15 @@ body{
     margin: 0;
     padding: 0;
 }
+#myNavbar{
+    float: right !important;
+}
+nav{
+    background: rgba(247, 6, 86, 0.26) !important;
+}
 #seccion1{
     height: 100vh;
-    background-image: url(https://avante.biz/wp-content/uploads/Full-HD-4K-Wallpapers/Full-HD-4K-Wallpapers-006.jpg);
-
+    background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg);
 }
 #cvdiana{
     width: 100%;
@@ -19,6 +24,21 @@ body{
     border: 2px solid rgb(247, 6, 86);
     background: rgb(247, 6, 86);
 }
+button:before {
+ content:'';
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 0px;
+ height: 42px;
+ background: rgba(255,255,255,0.3);
+ border-radius: 5px;
+ transition: all 2s ease;
+}
+button:hover:before {
+ width: 100%;
+}
+
 .titulo{
     color: white;
     font-size: 50px;
@@ -32,5 +52,13 @@ body{
 }
 #seccion2{
     height: 100vh;
-    
+    background-color:#EE8C8A;
+
+}
+.sobre_mi_title{
+    color: black;
+}
+#perfil{
+    border-radius: 700px;
+    height:300px ;
 }
